@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 21px;
+}
+
 .topLine {
     width: 100%;
     height: 30px;
@@ -71,12 +75,9 @@
     cursor: pointer;
 }
 
-
-
 .headerButton:hover {
     background-color: #9A54BC;
     color: white;
-
 }
 
 .topSection{
@@ -109,5 +110,62 @@
     cursor: pointer;
 }
 
+.elipsesContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+}
 
+.absolute {
+    position: absolute;
+}
 
+.smallEllipse {
+    position: absolute;
+    top: 70px;
+}
+
+.rectangle {
+    position: absolute;
+    top: 80px;
+}
+
+.collab {
+    position: absolute;
+    top: 160px;
+}
+
+.elipseBtn {
+    position: absolute;
+    bottom: 100px;
+    padding: 3px 7px;
+    font-size: 10px;
+    background-color: white;
+    border: 1.5px solid #9A54BC;
+    border-radius: 3px;
+    color: #60267F;
+    cursor: pointer;
+}
+
+.elipseBtn:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.icons {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
