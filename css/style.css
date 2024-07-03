@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Roboto", sans-serif;;
+}
+
 h2 {
     font-size: 21px;
 }
@@ -169,3 +173,96 @@ h2 {
     align-items: center;
     justify-content: space-around;
 }
+
+.bigPhoneContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.vendorAppAndPhoneContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 50px;
+}
+
+.paragraph {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.vendorAppPhone {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraphBtnContainer {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 9px 0px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 1px 8px 9px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 1px 8px 9px 0px rgba(0,0,0,0.26);
+}
+
+.paragraphBtnContainer > button {
+    width: 50%;
+    padding: 5px 0px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.paragraphBtnContainer > button:hover {
+    border: #9A54BC solid 2px;
+    border-radius: 3px;
+    background-color: #60267F;
+    color: white;
+}
+
+.paragraphContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vendorPara {
+    background-color: #F2F2F2;
+    width: 95%;
+    padding: 17px 15px;
+    font-size: 10px;
+}
+
+.vendorPara span{
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.videoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.videoContainer p {
+    width: 75%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+} 
